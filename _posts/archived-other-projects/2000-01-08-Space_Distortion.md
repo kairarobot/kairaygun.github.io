@@ -1,7 +1,7 @@
 ---
 type: Twitter Bot and Python Visualizer
 project: NASA Datanaut
-categories: other-projects
+categories: archived-other-projects
 layout: other-project-post
 permalink: /other-projects/:title
 img-preview: /assets/other-projects/nasa/preview.png
