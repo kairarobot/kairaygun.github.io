@@ -7,7 +7,15 @@ h3,
 h4,
 h5,
 h6,
+dl,
+ul,
 p {
   font-family: 'Roboto Mono', sans-serif;
-  color: $dark-gray-color;
+  line-height: normal;
+  font-size: larger;
+}
+blockquote {
+	border-left: 8px $dark-gray-color  solid;
+    padding-left: 8px;
+    font-size: xx-large;
 }

@@ -1,0 +1,90 @@
+I"<!-- Project Section -->
+<h1 class="main-title">Vestwell Onboarding</h1>
+<section class="container-section fade-in">
+    <div class="project-content">
+      <dl>
+        <div>
+          <dt>Role</dt>
+          <dd>UX Designer</dd>
+        </div>
+        <div>
+          <dt>Tools</dt>
+          <dd>Figma, Figma</dd>
+        </div>
+        <div>
+          <dt>Timeline</dt>
+          <dd>4 Months</dd>
+        </div>
+        <div>
+          <dt>Award</dt>
+          <dd>A large feline inhabiting Bodmin Moor.</dd>
+        </div>
+      </dl>
+      <h2>Discovery</h2>
+      <h3>Background</h3>
+      <p>Vestwell empowers workplaces with its digital recordkeeping platform, providing more flexibility to manage retirement plans for advisors, employers, and employees. I worked across different projects and managers to design and deliver internal and client-facing experiences for the platform.
+        <br />
+      One of the client-facing projects I had the opportunity to design is Vestwell's onboarding experience. My role for this project is a user experience designer and researcher focusing on making the platform more informative, relative, and welcoming for new users. 
+      </p>
+      <h2>Discovery</h2>
+      <h3>Soltuon</h3>
+      <p>lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+      <img src="https://www.justinmind.com/wp-content/webp-express/webp-images/uploads/2017/11/timblee-user-flow-justinmind.png.webp" />      
+      <ul>
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+      </ul>
+      <blockquote>test</blockquote>      
+    </div>
+</section>
+
+<!-- More Designs -->
+<h1 class="main-title">OTHER WORK</h1>
+<section class="container-section fade-in">
+    <div class="other-design">
+        
+        <div class="small-card">
+            <div class="description">
+                <h1>user interface &amp; user experience</h1>      
+                <a class="external-links" temp="" href="" target="_blank">
+                    <h2>Onboarding Wizard</h2>
+                </a>                      
+            </div>
+            <img src="/assets/projects/classlink/preview.png" alt="image" id="1-modal-button" />
+        </div>
+        
+        <div class="small-card">
+            <div class="description">
+                <h1>user interface &amp; user experience</h1>      
+                <a class="external-links" temp="" href="" target="_blank">
+                    <h2>Inventory Management</h2>
+                </a>                      
+            </div>
+            <img src="/assets/projects/kinetic/preview.png" alt="image" id="2-modal-button" />
+        </div>
+        
+        <div class="small-card">
+            <div class="description">
+                <h1>user interface &amp; user experience</h1>      
+                <a class="external-links" temp="" href="" target="_blank">
+                    <h2>Risk Communication</h2>
+                </a>                      
+            </div>
+            <img src="/assets/projects/columbia/preview.png" alt="image" id="3-modal-button" />
+        </div>
+        
+        <div class="small-card">
+            <div class="description">
+                <h1>user interface &amp; user experience</h1>      
+                <a class="external-links" temp="" href="" target="_blank">
+                    <h2>Vestwell Onboarding</h2>
+                </a>                      
+            </div>
+            <img src="/assets/projects/vestwell/preview.png" alt="image" id="4-modal-button" />
+        </div>
+        
+    </div>
+</section>
+<p>we</p>
+:ET

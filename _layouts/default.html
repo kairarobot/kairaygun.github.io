@@ -7,12 +7,12 @@
     <main id="main">
 
         <!-- Portfolio Section -->
-        <h1 class="main-title">CASE STUDIES</h1>
+        <h1 class="main-title">PROJECTS</h1>
         <section class="container-section fade-in">
             {% for post in site.categories.projects %}
             <div class="card">
                 <h2>{{ post.company }}</h2>      
-                <h3>{{ post.project }}</h3>      
+                <h3>{{ post.project }}</h3>
                 <div class="card-content">
                     <img class="image-portfolio" src="{{ post.img-preview }}" alt="image" 
                              id="{{ "-modal-button" | prepend: forloop.index }}">
@@ -20,29 +20,10 @@
                 <h4>{{ post.type }}</h4>      
                 <div class="card-bottom">
                     <p>{{ post.description }}</p>
-                    <button><a href="{{ post.pdf }}" target="_blank">SEE MORE</a></button>
+                    <button><a href="{{ post.url }}">SEE MORE</a></button>
                 </div>
             </div>
             {% endfor %}
-        </section>
-
-        <!-- More Designs -->
-        <h1 class="main-title">OTHER WORK</h1>
-        <section class="container-section fade-in">
-            <div class="other-design">
-                {% for post in site.categories.other-projects reversed %}
-                <div class="small-card">
-                    <div class="description">
-                        <h1>{{ post.type }}</h1>      
-                        <a class="external-links" temp="{{ post.external_url }}" href="" target="_blank">
-                            <h2>{{ post.project }}</h2>
-                        </a>                      
-                    </div>
-                    <img src="{{ post.img-preview }}" alt="image" 
-                                 id="{{ "-modal-button" | prepend: forloop.index }}">
-                </div>
-                {% endfor %}
-            </div>
         </section>
 
     </main>
@@ -52,4 +33,3 @@
 <script src="/assets/js/resizecards.js"></script>
 <script src="/assets/js/externallinks.js"></script>
 </html>
-
