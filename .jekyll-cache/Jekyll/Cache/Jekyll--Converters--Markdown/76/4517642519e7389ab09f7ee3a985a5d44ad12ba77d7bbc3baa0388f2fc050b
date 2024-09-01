@@ -1,16 +1,4 @@
----
-company: Kinetic
-project: Inventory Management
-type: user interface & user experience
-description: An internal dashboard tool for managing hardware inventory and users. 
-categories: projects
-layout: project-post
-permalink: /projects/:title
-img-preview: /assets/projects/kinetic/preview.png
-pdf: /assets/projects/kinetic/project.pdf
----
-
-<!-- Project Section -->
+I"z<!-- Project Section -->
 <h1 class="main-title">Risk Communication Design</h1>
 <section class="container-section fade-in">
     <div class="project-content">
@@ -33,13 +21,13 @@ pdf: /assets/projects/kinetic/project.pdf
             <dd><a href="https://dl.acm.org/doi/abs/10.1145/3491102.3502101">2022 CHI Paper</a></dd>
           </div>
         </dl>
-        <img src="/assets/projects/kinetic/kinetic-01.png"/>
+        <img src="/assets/projects/kinetic/kinetic-01.png" />
       </section>
       <section>
         <h2>Discovery</h2>
         <h3>Background</h3>
         <p>Kinetic has an existing inventory manager that organizes its hardware devices, often used to assign a device to a user. The project included redesigning their inventory management system, an internal tool for operations engineers to assign, unassign, create, delete, or update devices. 
-        <br><br>
+        <br /><br />
         The inventory manager consists of two sections: client manager and direct inventory. The Client manager lists the active and deployed devices based on companies, which could be further broken down into locations and employees. The immediate inventory consists of items that still need to be shipped.
         </p>
         <h3>Research Goals</h3>
@@ -50,24 +38,24 @@ pdf: /assets/projects/kinetic/project.pdf
         <h3>Interviews</h3>
         <p>We started conducting interviews within our internal team. We interviewed operation engineers and a few customer engineers. There were complaints about the old design. Most of them hacked their way through the interface and gave me a list of these hacks they used to accomplish tasks such as assigning or finding devices. The main takeaway is that the structure works, but the interface needs revision.
     	</p>
-        <img src="/assets/projects/kinetic/kinetic-02.png"/>
+        <img src="/assets/projects/kinetic/kinetic-02.png" />
       </section>
       <section>
         <h2>Define</h2>
         <h3>Sketches</h3>
         <p>There are two main types of views—a list view with a table and a detail view with a form. Since users approved of the larger structure, the prototype focused more on revising the detailed views. We prototyped different types of sketches and came up with a consolidated version that would be used for the final type. The sketches were also tested with the operation and customer engineers.</p>
-        <img src="/assets/projects/kinetic/kinetic-03.png"/>
+        <img src="/assets/projects/kinetic/kinetic-03.png" />
         <h3>User Flow</h3>
         <p>Since there are two sections, there are two main flows—one for the client and the other for inventory. Under the client flow, there are three main sections, company, locations, and employees. The company contains locations and employees. The locations include the employees. There is an edit page for each company, site, and employee. On the inventory side, there are connected and unconnected devices. A connected device could be editable.        	
         </p>
-        <img src="/assets/projects/kinetic/kinetic-04.png"/>
+        <img src="/assets/projects/kinetic/kinetic-04.png" />
       </section>
       <section>
         <h2>Design</h2>
         <h3>Final Design</h3>
         <p>For the final design, there are a total of 9 pages, which consists of the company list, company edit, location list, location edit, employee list, employee edit, employee add, then connected and unconnected devices.
         </p>
-        <img src="/assets/projects/kinetic/kinetic-04.png"/>
+        <img src="/assets/projects/kinetic/kinetic-04.png" />
       </section>
     </div>
 </section>
@@ -76,19 +64,45 @@ pdf: /assets/projects/kinetic/project.pdf
 <h1 class="main-title">OTHER WORK</h1>
 <section class="container-section fade-in">
     <div class="other-design">
-        {% for post in site.categories.projects reversed %}
-          {% if post.project != page.project %}
+        
+          
             <div class="small-card">
                 <div class="description">
-                    <h1>{{ post.type }}</h1>      
-                    <a class="external-links" temp="{{ post.external_url }}" href="">
-                        <h2>{{ post.project }}</h2>
+                    <h1>user interface &amp; user experience</h1>      
+                    <a class="external-links" temp="" href="" target="_blank">
+                        <h2>Risk Communication</h2>
                     </a>                      
                 </div>
-                <img src="{{ post.img-preview }}" alt="image" 
-                             id="{{ "-modal-button" | prepend: forloop.index }}">
+                <img src="/assets/projects/columbia/preview.png" alt="image" id="1-modal-button" />
              </div>
-            {% endif %}
-        {% endfor %}
+            
+        
+          
+        
+          
+            <div class="small-card">
+                <div class="description">
+                    <h1>user interface &amp; user experience</h1>      
+                    <a class="external-links" temp="" href="" target="_blank">
+                        <h2>Risk Communication</h2>
+                    </a>                      
+                </div>
+                <img src="/assets/projects/columbia/preview.png" alt="image" id="3-modal-button" />
+             </div>
+            
+        
+          
+            <div class="small-card">
+                <div class="description">
+                    <h1>user interface &amp; user experience</h1>      
+                    <a class="external-links" temp="" href="" target="_blank">
+                        <h2>Vestwell Onboarding</h2>
+                    </a>                      
+                </div>
+                <img src="/assets/projects/vestwell/preview.png" alt="image" id="4-modal-button" />
+             </div>
+            
+        
     </div>
 </section>
+:ET
