@@ -1,17 +1,5 @@
----
-company: Columbia
-project: Risk Communication
-type: user interface & user experience
-description: A home page redesign integrating user localization for hurricane risk communication.
-categories: projects
-layout: project-post
-permalink: /projects/:title
-img-preview: /assets/projects/columbia/preview.png
-pdf: /assets/projects/columbia/project.pdf
----
-
-<!-- Project Section -->
-<h1 class="main-title">Risk Communication Design</h1>
+I"�<!-- Project Section -->
+<h1 class="main-title">Vestwell Onboarding</h1>
 <section class="container-section fade-in">
     <div class="project-content">
       <section>
@@ -30,16 +18,16 @@ pdf: /assets/projects/columbia/project.pdf
           </div>
           <div>
             <dt>Recognition</dt>
-            <dd><a href="https://dl.acm.org/doi/abs/10.1145/3491102.3502101">2022 CHI Paper</a></dd>
+            <dd><a href="https://dl.acm.org/doi/abs/10.1145/3491102.3502101">2022 CHI Selected</a></dd>
           </div>
         </dl>
-        <img src="/assets/projects/columbia/columbia-01.png"/>
+        <img src="/assets/projects/columbia/columbia-01.png" />
       </section>
       <section>
         <h2>Discovery</h2>
         <h3>Background</h3>
         <p>While working on my thesis, my advisor, Professor Robert Soden (http://robertsoden.io/) recruited me as a researcher where I collaborated with a team of sociologists, product designers, and computer scientists between Columbia University, University of Washington: Seattle, and University of Colorado: Boulder to assess a website redesign for the National Hurricane Center.
-        <br><br>
+        <br /><br />
         As a result, we presented 18 design opportunities to the National Hurricane Center, and one of the opportunities they picked is designing for user localization, which is the focus of my thesis, “Exploring User Localization as a Design Opportunity through Human-Centered Design Principles for the National Hurricane Center Home Page (NHC.NOAA.GOV).”
         </p>
         <h3>Problem Statements</h3>
@@ -60,30 +48,30 @@ pdf: /assets/projects/columbia/project.pdf
           <li>Onboarding slides help users feel welcome</li>
           <li>If done well, onboarding can establish further trust between the user and the product</li>
         </ul>      
-        <img src="/assets/projects/vestwell/vestwell-02.png"/>
+        <img src="/assets/projects/vestwell/vestwell-02.png" />
       </section>
       <section>
         <h2>Define</h2>
         <h3>User Journey Mapping</h3>
-        <img src="/assets/projects/vestwell/vestwell-03.png"/>
+        <img src="/assets/projects/vestwell/vestwell-03.png" />
         <h3>User Flow</h3>
         <p>The user flow operates from the tasks retrieved from the user journey map that targets the user recently enrolled on a 401k through their employer.</p>
-        <img src="/assets/projects/vestwell/vestwell-04.png"/>
+        <img src="/assets/projects/vestwell/vestwell-04.png" />
         <h3>Sketches</h3>
         <p>With this user flow in mind, we started picturing beyond the MVP through wireframing as much as possible. The challenge here was considering the existing mobile prototype, translating it to a desktop, and considering our insights from the usability test. We sketched several ideas for different pages of the eventual prototype. These are just a few preliminary sketches that we did.</p>
-        <img src="/assets/projects/vestwell/vestwell-05.png"/>
+        <img src="/assets/projects/vestwell/vestwell-05.png" />
         <h3>Participatory Design</h3>
         <p>By including product managers, engineers, and potential users at this point in the design process, we aim to uncover more pain points to deliver user-centric onboarding for our platform at a reasonable time. For a week, we sought our stakeholders' decision-making and creative processes. It aims to ensure that the final design reflects the needs, preferences, and values of the people who will ultimately use or be affected by the designed product, service, or system.</p>
-        <img src="/assets/projects/vestwell/vestwell-06.png"/>
+        <img src="/assets/projects/vestwell/vestwell-06.png" />
       </section>
       <section>
         <h2>Design</h2>
         <h3>Final Design</h3>
         <p>After revising the sketches, we devised a design that satisfies the product goal of guiding the users through the initial steps of setting up their 401k account, helping them understand the value and benefits of the offering, and enabling them to quickly and successfully engage with the core features where they will continue to keep using the product. Here are some key highlights for the user experience:</p>
-        <img src="/assets/projects/vestwell/vestwell-07.png"/>            
-        <img src="/assets/projects/vestwell/vestwell-08.png"/>            
-        <img src="/assets/projects/vestwell/vestwell-09.png"/>            
-        <img src="/assets/projects/vestwell/vestwell-10.png"/>                    
+        <img src="/assets/projects/vestwell/vestwell-07.png" />            
+        <img src="/assets/projects/vestwell/vestwell-08.png" />            
+        <img src="/assets/projects/vestwell/vestwell-09.png" />            
+        <img src="/assets/projects/vestwell/vestwell-10.png" />                    
       </section>
     </div>
 </section>
@@ -92,19 +80,45 @@ pdf: /assets/projects/columbia/project.pdf
 <h1 class="main-title">OTHER WORK</h1>
 <section class="container-section fade-in">
     <div class="other-design">
-        {% for post in site.categories.projects reversed %}
-          {% if post.project != page.project %}
+        
+          
             <div class="small-card">
                 <div class="description">
-                    <h1>{{ post.type }}</h1>      
-                    <a class="external-links" temp="{{ post.external_url }}" href="" target="_blank">
-                        <h2>{{ post.project }}</h2>
+                    <h1>user interface &amp; user experience</h1>      
+                    <a class="external-links" temp="" href="" target="_blank">
+                        <h2>Onboarding Wizard</h2>
                     </a>                      
                 </div>
-                <img src="{{ post.img-preview }}" alt="image" 
-                             id="{{ "-modal-button" | prepend: forloop.index }}">
+                <img src="/assets/projects/classlink/preview.png" alt="image" id="1-modal-button" />
              </div>
-            {% endif %}
-        {% endfor %}
+            
+        
+          
+            <div class="small-card">
+                <div class="description">
+                    <h1>user interface &amp; user experience</h1>      
+                    <a class="external-links" temp="" href="" target="_blank">
+                        <h2>Inventory Management</h2>
+                    </a>                      
+                </div>
+                <img src="/assets/projects/kinetic/preview.png" alt="image" id="2-modal-button" />
+             </div>
+            
+        
+          
+        
+          
+            <div class="small-card">
+                <div class="description">
+                    <h1>user interface &amp; user experience</h1>      
+                    <a class="external-links" temp="" href="" target="_blank">
+                        <h2>Vestwell Onboarding</h2>
+                    </a>                      
+                </div>
+                <img src="/assets/projects/vestwell/preview.png" alt="image" id="4-modal-button" />
+             </div>
+            
+        
     </div>
 </section>
+:ET
