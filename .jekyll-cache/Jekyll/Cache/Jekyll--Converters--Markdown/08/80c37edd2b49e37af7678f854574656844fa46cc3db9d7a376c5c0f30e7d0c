@@ -1,5 +1,5 @@
-I"á<!-- Project Section -->
-<h1 class="main-title">Risk Communication Design</h1>
+I"! <!-- Project Section -->
+<h1 class="main-title">Risk Communication</h1>
 <section class="container-section fade-in">
     <div class="project-content">
       <section>
@@ -82,16 +82,14 @@
     <div class="other-design">
         
           
-        
-          
             <div class="small-card">
                 <div class="description">
                     <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="">
+                    <a class="external-links" temp="https://kaira.design/projects/Kinetic" href="">
                         <h2>Inventory Management</h2>
                     </a>                      
                 </div>
-                <img src="/assets/projects/kinetic/preview.png" alt="image" id="2-modal-button" />
+                <img src="/assets/projects/kinetic/preview.png" alt="image" id="1-modal-button" />
              </div>
             
         
@@ -101,11 +99,11 @@
             <div class="small-card">
                 <div class="description">
                     <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="">
+                    <a class="external-links" temp="https://kaira.design/projects/Vestwell" href="">
                         <h2>Vestwell Onboarding</h2>
                     </a>                      
                 </div>
-                <img src="/assets/projects/vestwell/preview.png" alt="image" id="4-modal-button" />
+                <img src="/assets/projects/vestwell/preview.png" alt="image" id="3-modal-button" />
              </div>
             
         

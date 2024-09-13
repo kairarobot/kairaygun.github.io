@@ -1,4 +1,4 @@
-I"I<!-- Project Section -->
+I"	<!-- Project Section -->
 <h1 class="main-title">Vestwell Onboarding</h1>
 <section class="container-section fade-in">
     <div class="project-content">
@@ -15,10 +15,6 @@
           <div>
             <dt>Timeline</dt>
             <dd>4 Months</dd>
-          </div>
-          <div>
-            <dt>Award</dt>
-            <dd>A large feline inhabiting Bodmin Moor.</dd>
           </div>
         </dl>
         <img src="/assets/projects/vestwell/vestwell-01.png" />
@@ -87,7 +83,7 @@
             <div class="small-card">
                 <div class="description">
                     <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="" href="" target="_blank">
+                    <a class="external-links" temp="https://kaira.design/projects/Kinetic" href="">
                         <h2>Inventory Management</h2>
                     </a>                      
                 </div>
@@ -99,35 +95,11 @@
             <div class="small-card">
                 <div class="description">
                     <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="" href="" target="_blank">
+                    <a class="external-links" temp="https://kaira.design/projects/Columbia" href="">
                         <h2>Risk Communication</h2>
                     </a>                      
                 </div>
                 <img src="/assets/projects/columbia/preview.png" alt="image" id="2-modal-button" />
-             </div>
-            
-        
-          
-            <div class="small-card">
-                <div class="description">
-                    <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="" href="" target="_blank">
-                        <h2>Inventory Management</h2>
-                    </a>                      
-                </div>
-                <img src="/assets/projects/kinetic/preview.png" alt="image" id="3-modal-button" />
-             </div>
-            
-        
-          
-            <div class="small-card">
-                <div class="description">
-                    <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="" href="" target="_blank">
-                        <h2>Risk Communication</h2>
-                    </a>                      
-                </div>
-                <img src="/assets/projects/columbia/preview.png" alt="image" id="4-modal-button" />
              </div>
             
         

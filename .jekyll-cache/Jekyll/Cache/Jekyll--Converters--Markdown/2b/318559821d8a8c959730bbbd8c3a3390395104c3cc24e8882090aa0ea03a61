@@ -1,5 +1,5 @@
-I"Ž<!-- Project Section -->
-<h1 class="main-title">Risk Communication Design</h1>
+I"ï<!-- Project Section -->
+<h1 class="main-title">Inventory Management</h1>
 <section class="container-section fade-in">
     <div class="project-content">
       <section>
@@ -10,15 +10,11 @@
           </div>
           <div>
             <dt>Tools</dt>
-            <dd>Figma, Hotjar, Otter, UserTesting</dd>
+            <dd>Figma, Mixpanel</dd>
           </div>
           <div>
             <dt>Timeline</dt>
-            <dd>8 Months</dd>
-          </div>
-          <div>
-            <dt>Recognition</dt>
-            <dd><a href="https://dl.acm.org/doi/abs/10.1145/3491102.3502101">2022 CHI Paper</a></dd>
+            <dd>6 Months</dd>
           </div>
         </dl>
         <img src="/assets/projects/kinetic/kinetic-01.png" />
@@ -55,7 +51,7 @@
         <h3>Final Design</h3>
         <p>For the final design, there are a total of 9 pages, which consists of the company list, company edit, location list, location edit, employee list, employee edit, employee add, then connected and unconnected devices.
         </p>
-        <img src="/assets/projects/kinetic/kinetic-04.png" />
+        <img src="/assets/projects/kinetic/kinetic-05.png" />
       </section>
     </div>
 </section>
@@ -71,7 +67,7 @@
             <div class="small-card">
                 <div class="description">
                     <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="" href="" target="_blank">
+                    <a class="external-links" temp="https://kaira.design/projects/Columbia" href="">
                         <h2>Risk Communication</h2>
                     </a>                      
                 </div>
@@ -80,28 +76,14 @@
             
         
           
-        
-          
             <div class="small-card">
                 <div class="description">
                     <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="" href="" target="_blank">
-                        <h2>Risk Communication</h2>
-                    </a>                      
-                </div>
-                <img src="/assets/projects/columbia/preview.png" alt="image" id="4-modal-button" />
-             </div>
-            
-        
-          
-            <div class="small-card">
-                <div class="description">
-                    <h1>user interface &amp; user experience</h1>      
-                    <a class="external-links" temp="" href="" target="_blank">
+                    <a class="external-links" temp="https://kaira.design/projects/Vestwell" href="">
                         <h2>Vestwell Onboarding</h2>
                     </a>                      
                 </div>
-                <img src="/assets/projects/vestwell/preview.png" alt="image" id="5-modal-button" />
+                <img src="/assets/projects/vestwell/preview.png" alt="image" id="3-modal-button" />
              </div>
             
         
